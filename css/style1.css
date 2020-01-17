@@ -1,0 +1,40 @@
+div.menu {
+    background-color: antiquewhite;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 10px;
+}
+
+li {
+    margin: 10px;
+    font-family: Geneva, Arial;
+}
+
+ul.menu {
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    padding: 0px;
+    margin-top: 4px;
+}
+
+li.menu:hover {
+    background-color: whitesmoke;
+}
+
+li.menu1 {
+    display: none;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
